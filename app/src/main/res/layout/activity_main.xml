@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#04345D"
+    android:background="#929292"
     tools:context="com.nonexistentware.igor.simpleterminal.MainActivity">
 
     <EditText
         android:id="@+id/input"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,14 +19,14 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Type command"
-        android:textColorHint="#fff"/>
+        android:textColorHint="#000"/>
 
     <TextView
         android:id="@+id/status"
         android:textSize="25sp"
         android:text="TEST"
         android:gravity="center"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteY="0dp"
