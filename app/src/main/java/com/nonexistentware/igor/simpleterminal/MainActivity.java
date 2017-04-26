@@ -170,6 +170,7 @@ public class MainActivity extends AppCompatActivity {
                         status.setText("OS.VERSION : " + System.getProperty("os.version")); // version
                         break;
 
+
                     default:
                         status.setText("I don`t know command '" + wnCommands + "'"); // unknown commands
                         break;
